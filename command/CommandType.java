@@ -1,0 +1,17 @@
+package ie.ucd.bdic.group6.command;
+
+public enum CommandType {
+    CREATE_SESSION,
+    JOIN_SESSION,
+    START_GAME,
+    PLAY_CARD,
+    PAY_DEBT,
+    PROPOSE_TRADE,
+    RESPOND_TRADE,
+    RESPOND_ACTION,
+    DISCARD_CARDS,
+    END_TURN,
+    REJOIN_SESSION,
+    PLAYER_DISCONNECTED,
+    PROCESS_DISCONNECT_TIMEOUTS
+}
